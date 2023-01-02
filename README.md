@@ -1,6 +1,6 @@
 # Data cube for Haskell University Workshop
 
-<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embedded/7211b957-a462-4ea9-8894-64edf99dfef2" id="MGgkCvlPb5.R"></iframe></div> "title")
+![ESIIL_datacube](https://user-images.githubusercontent.com/67020853/210265589-598490f7-113b-4c9a-8cbf-48b67ab0a5c5.png)
 
 ## 1. Create Area of Interest (Python code)
 
