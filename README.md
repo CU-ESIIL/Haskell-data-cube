@@ -5,7 +5,7 @@
 ## 1. Create Area of Interest (Python code)
 
 ```python
-# Import necessary modules first
+# Import 
 import pandas as pd
 import geopandas as gpd
 from shapely.geometry import Point, Polygon
@@ -55,7 +55,25 @@ newdata1.to_file(outfp2, driver="GeoJSON")
 
 Download from https://www.mrlc.gov/data?f%5B0%5D=region%3Aconus&f%5B1%5D=year%3A2019
 
-### SRTM: 
+### SRTM: NASA Shuttle Radar Topography Mission Global 1 arc second V003
+
+Download from https://search.earthdata.nasa.gov/search
+
+*Use the geojson file generated in section 1 for search
+
+### ECOSTRESS: ECOSTRESS Water Use Efficiency Daily L4 Global 70m V001 & ECOSTRESS Geolocation Daily L1B Global 70m V001
+
+Download from https://search.earthdata.nasa.gov/search?q=ECOSTRESS
+
+*Use the shape file generated in section 1 for search
+
+**Restrict the L4 data search by year, season, and hours of the day
+
+***Search and download L1B data by using the relative L4 data orbits 
+
+### GEDI: GEDI L1B Geolocated Waveform Data Global Footprint Level V002 & GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002
+
+Download using the rGEDI package: https://github.com/carlos-alberto-silva/rGEDI
 
 ## Create a median composite image
 
